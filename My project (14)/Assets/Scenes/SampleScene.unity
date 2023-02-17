@@ -298,7 +298,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
-  m_LocalRotation: {x: -0.06533661, y: -0.0000000085848075, z: -5.6210325e-10, w: 0.9978633}
+  m_LocalRotation: {x: -0.06533661, y: 0.0000000085848075, z: 5.6210325e-10, w: 0.9978633}
   m_LocalPosition: {x: 0, y: 0.5, z: -6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -794,11 +794,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1184140838, guid: 39764fe1282bdf64888fd7675f1b25bf, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.0000000042924038
+      value: 0.0000000042924038
       objectReference: {fileID: 0}
     - target: {fileID: 1184140838, guid: 39764fe1282bdf64888fd7675f1b25bf, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -2.810516e-10
+      value: 2.810516e-10
       objectReference: {fileID: 0}
     - target: {fileID: 1290501991, guid: 39764fe1282bdf64888fd7675f1b25bf, type: 3}
       propertyPath: m_LocalRotation.x
@@ -910,57 +910,6 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.0000030994415
       objectReference: {fileID: 0}
-    - target: {fileID: 8183207903760863100, guid: 39764fe1282bdf64888fd7675f1b25bf,
-        type: 3}
-      propertyPath: <FreeLookMovementSpeed>k__BackingField
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 8183207903760863100, guid: 39764fe1282bdf64888fd7675f1b25bf,
-        type: 3}
-      propertyPath: <DualBladeCombos>k__BackingField.heavyCombo.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8183207903760863100, guid: 39764fe1282bdf64888fd7675f1b25bf,
-        type: 3}
-      propertyPath: <DualBladeCombos>k__BackingField.lightCombo.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8183207903760863100, guid: 39764fe1282bdf64888fd7675f1b25bf,
-        type: 3}
-      propertyPath: <DualBladeCombos>k__BackingField.heavyCombo.Array.data[0]
-      value: 
-      objectReference: {fileID: 11400000, guid: d856260895dbf044f8b7551cd92f0315,
-        type: 2}
-    - target: {fileID: 8183207903760863100, guid: 39764fe1282bdf64888fd7675f1b25bf,
-        type: 3}
-      propertyPath: <DualBladeCombos>k__BackingField.heavyCombo.Array.data[1]
-      value: 
-      objectReference: {fileID: 11400000, guid: ce815b42d7cfcbf4c977588214487246,
-        type: 2}
-    - target: {fileID: 8183207903760863100, guid: 39764fe1282bdf64888fd7675f1b25bf,
-        type: 3}
-      propertyPath: <DualBladeCombos>k__BackingField.heavyCombo.Array.data[2]
-      value: 
-      objectReference: {fileID: 11400000, guid: 858de5dc02c79904c9b6c5866a5224fc,
-        type: 2}
-    - target: {fileID: 8183207903760863100, guid: 39764fe1282bdf64888fd7675f1b25bf,
-        type: 3}
-      propertyPath: <DualBladeCombos>k__BackingField.lightCombo.Array.data[0]
-      value: 
-      objectReference: {fileID: 11400000, guid: 909960e75a14f8541afdbeec3fed110b,
-        type: 2}
-    - target: {fileID: 8183207903760863100, guid: 39764fe1282bdf64888fd7675f1b25bf,
-        type: 3}
-      propertyPath: <DualBladeCombos>k__BackingField.lightCombo.Array.data[1]
-      value: 
-      objectReference: {fileID: 11400000, guid: 5050327916a48d142afb7c9bfdb111d9,
-        type: 2}
-    - target: {fileID: 8183207903760863100, guid: 39764fe1282bdf64888fd7675f1b25bf,
-        type: 3}
-      propertyPath: <DualBladeCombos>k__BackingField.lightCombo.Array.data[2]
-      value: 
-      objectReference: {fileID: 11400000, guid: 53121b11bc919124c916e5a3b39891b4,
-        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 39764fe1282bdf64888fd7675f1b25bf, type: 3}
 --- !u!1001 &4055335176562489918

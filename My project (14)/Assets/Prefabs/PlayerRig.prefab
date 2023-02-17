@@ -229,7 +229,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1290501989}
-  m_LocalRotation: {x: -0.04717517, y: 0.000000003721143, z: 1.7574121e-10, w: 0.99888664}
+  m_LocalRotation: {x: -0.047175173, y: -2.2155018e-16, z: 6.8055913e-18, w: 0.99888664}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -827,7 +827,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 852204939341287395}
-  m_LocalRotation: {x: 0.1253534, y: 0.0000000037922487, z: -4.791505e-10, w: 0.99211216}
+  m_LocalRotation: {x: 0.12535338, y: -0.000000026919997, z: 0.0000000034013417, w: 0.99211216}
   m_LocalPosition: {x: 11.435752, y: 0.39006567, z: 18.276176}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -961,28 +961,18 @@ MonoBehaviour:
   <Animator>k__BackingField: {fileID: 7191039545562122981}
   <Targeter>k__BackingField: {fileID: 8094401335694560445}
   <ForceReceiver>k__BackingField: {fileID: 503404566033433777}
-  <FreeLookMovementSpeed>k__BackingField: 5
+  <FreeLookMovementSpeed>k__BackingField: 10
   <TargetingMovementSpeed>k__BackingField: 5
   <RotationSmooth>k__BackingField: 10
-  <Attacks>k__BackingField:
-  - <AnimationName>k__BackingField: Attack_3Combo_A_1_Root
-    <TransitionDuration>k__BackingField: 0.1
-    <ComboStateIndex>k__BackingField: 1
-    <ComboAttackTime>k__BackingField: 0.6
-    <ForceTime>k__BackingField: 0.35
-    <Force>k__BackingField: 7
-  - <AnimationName>k__BackingField: Attack_3Combo_A_2_Root
-    <TransitionDuration>k__BackingField: 0.1
-    <ComboStateIndex>k__BackingField: 2
-    <ComboAttackTime>k__BackingField: 0.5
-    <ForceTime>k__BackingField: 0.35
-    <Force>k__BackingField: 7
-  - <AnimationName>k__BackingField: Attack_3Combo_A_3_Root
-    <TransitionDuration>k__BackingField: 0.2
-    <ComboStateIndex>k__BackingField: -1
-    <ComboAttackTime>k__BackingField: 0
-    <ForceTime>k__BackingField: 0.35
-    <Force>k__BackingField: 14
+  <DualBladeCombos>k__BackingField:
+    lightCombo:
+    - {fileID: 11400000, guid: 909960e75a14f8541afdbeec3fed110b, type: 2}
+    - {fileID: 11400000, guid: 5050327916a48d142afb7c9bfdb111d9, type: 2}
+    - {fileID: 11400000, guid: 53121b11bc919124c916e5a3b39891b4, type: 2}
+    heavyCombo:
+    - {fileID: 11400000, guid: d856260895dbf044f8b7551cd92f0315, type: 2}
+    - {fileID: 11400000, guid: ce815b42d7cfcbf4c977588214487246, type: 2}
+    - {fileID: 11400000, guid: 858de5dc02c79904c9b6c5866a5224fc, type: 2}
 --- !u!114 &503404566033433777
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: HeavyAttack3
   m_EditorClassIdentifier: 
   <AnimationName>k__BackingField: HeavyAttack_5Combo_A_3_Root
-  <TransitionDuration>k__BackingField: 0.3
+  <TransitionDuration>k__BackingField: 0.1
   <ComboStateIndex>k__BackingField: -1
   <ComboAttackTime>k__BackingField: 0.2
   <ForceTime>k__BackingField: 0.2
